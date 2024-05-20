@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    border: 1px solid black;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+}
+
+.logo img {
+    width: 32px;
+}
+
+.logo h1 {
+    font-size: 25px;
+    gap: 8px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    color: rgb(15, 103, 145);
+}
+
+ul li {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul a {
+    text-decoration: none;
+    color: rgb(15, 103, 145);
+    font-size: 18px;
+}
+
+.gs {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.gs a {
+    color: white;
+    font-size: 16px;
+}
+
+.active {
+    color: rgb(15, 103, 145);
+    border-bottom: 1px solid rgb(15, 103, 145);
+}
+
+.dubai {
+    height: 800px;
+    background-image: url(./первый.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 24px;
+    color: black;
+    flex-direction: column;
+    padding: 0px 50px;
+    align-items: center;
+
+}
+
+.dubai p {
+    width: 800px;
+}
+
+.ccc {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.eee {
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.page2 {
+    padding: 112px 64px;
+}
+
+.page2 .top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 100px 60px;
+
+}
+
+.page2 .top span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.page2 .top h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.page2 .content {
+    display: flex;
+    gap: 32px;
+    padding: 32px 0;
+}
+
+.content h1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content span {
+    font-size: 18px;
+    text-align: center;
+}
+
+.box {
+    width: 34%;
+    padding: 3px 6px;
+}
+
+.box img {
+    width: 100%;
+    margin-bottom: 16px;
+    height: 300px;
+}
+
+.box button {
+    width: 100%;
+    padding: 12px 24px;
+    background-color: white;
+    color: rgba(231, 183, 24, 0.795);
+    border: 1px solid rgba(231, 183, 24, 0.795);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sevice {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 64px 32px;
+}
+
+.pot {
+    text-align: center;
+}
+
+.pot h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.pot p {
+    font-size: 18px;
+}
+
+.images {
+    display: flex;
+    gap: 48px;
+}
+
+.xob {
+    width: 34%;
+}
+
+.xob img {
+    width: 100%;
+    margin-bottom: 16px;
+    height: 210px;
+}
+
+.xob h1 {
+    font-size: 20px;
+}
+
+.xob p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.xob button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttom {
+    text-align: center;
+}
+
+.buttom button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+
+.dauka {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 100px 50px;
+}
+
+.akuad {
+    text-align: center;
+}
+
+.akuad h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.akuad p {
+    font-size: 18px;
+}
+
+.akuad span {
+    font-size: 16px;
+}
+
+.tdsys {
+    display: flex;
+    gap: 32px;
+}
+
+.ttt {
+    width: 34%;
+    border: 2px solid black;
+    width: 450px;
+    height: 500px;
+    padding: 6px;
+    gap: 40px;
+}
+
+.ttt img {
+    width: 100%;
+    height: 250px;
+}
+
+.ttt .class {
+    font-size: 28px;
+}
+
+.ttt p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding: 12px;
+}
+
+.vph {
+    display: flex;
+    gap: 24px;
+    padding: 8px;
+    font-size: 8px;
+}
+
+.vph .idd {
+    background-color: rgba(255, 255, 255, 0.521);
+    color: black;
+    padding: 3px 6px;
+
+}
+
+.dake {
+    text-align: center;
+}
+
+.dake button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 112px 64px;
+    display: flex;    gap: 80px;
+}
+
+.contact div {
+    width: 50%;
+}
+
+.contact .ddd {
+    width: 100%;
+}
+
+.contact div iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .ddd span {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+
+}
+
+.contact .ddd h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.contact .ddd p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact .bottom {
+    margin-top: 32px;
+}
+
+.contact .bottom {
+
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.bottom input,
+.bottom textarea {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.bottom .check {}
+
+.bottom .check input {
+    font-size: 30px;
+
+}
+
+.btm button {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registr {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.registr .top {
+    gap: 4px;
+    text-align: center;
+}
+
+.registr .top h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.registr .top p {
+    font-size: 16px;
+}
+
+.registr .pot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.pot label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+.pot input,
+.pot textarea {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.registr .pot input {
+    font-size: 30px;
+}
+
+.dake button {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    padding: 80px;
+}
+
+.footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.footer .top .left img {
+    width: 20px;
+}
+
+.footer .top .left div {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.footer .top .left ul {
+    list-style: none;
+    display: flex;
+    margin-top: 32px;
+    gap: 20px;
+}
+
+.footer .top ul a {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer .top .right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.footer .top .right h1 {
+    font-size: 24px;
+}
+
+.footer .top .right input {
+    border: none;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.footer .top .right button {
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+
+.footer .bottom {
+    border-top: 1px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.footer .bottom ul {
+    list-style: none;
+    display: flex;
+    margin-top: 32px;
+    gap: 20px;
+}
